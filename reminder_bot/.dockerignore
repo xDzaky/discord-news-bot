@@ -1,0 +1,15 @@
+.env
+.env.example
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.db
+*.sqlite
+*.sqlite3
+data/
+.git
+.gitignore
+README.md
+inform.txt

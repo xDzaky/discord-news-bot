@@ -1,0 +1,15 @@
+# fly.toml app configuration file
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+
+app = "remindly-bot"
+primary_region = "sin"
+
+[build]
+
+[env]
+  ENVIRONMENT = "production"
+  DATABASE_PATH = "/app/data/reminders.db"
+
+[mounts]
+  source = "remindly_data"
+  destination = "/app/data"
